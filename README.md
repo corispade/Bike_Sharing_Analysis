@@ -6,15 +6,15 @@ We are planning on starting a bike sharing business in Des Moines, Iowa. By usin
 
 Below are some of the questions we are seeking to answer with our data visualizations:
 * What is the total number of rides for Citi Bike data from August 2019?
-* How long bikes are checked out for all riders and genders?
+* How long are bikes checked out for all riders and genders?
 * How many trips are taken by the hour for each day of the week, for all riders and genders?
-* A breakdown of what days of the week a user might be more likely to check out a bike, by type of user and gender?
-* Locations where bikes are checked out and returned? 
+* What days of the week will a rider be more likely to check out a bike, by type of user and gender?
+* What locations are the bikes checked out and returned? 
 
 
 ## Process:
 
-### Deliverable 1 - Deliverable 1: Change Trip Duration to a Datetime Format
+### Deliverable 1 - Change Trip Duration to a Datetime Format
 * Convert 201908-citibike-tripdata.csv data to a DataFrame
 * Change the 'tripduration' column to datetime datatype
 * Export the corrected DataFrame to a new .csv file
@@ -66,12 +66,13 @@ Click [here](https://public.tableau.com/app/profile/cori.spade/viz/CitiBikeAnaly
 ![image](https://github.com/corispade/bikesharing/blob/main/Images/Gender_Data.png)
 
 * In all images, you can see clearly there are more male than female riders
-* Both genders genders both males and females have similar riding habits and peak hours
+* Both males and females have similar riding habits and peak hours
+* The unknown customers peak riding hours are on the weekends
 
 
 # Summary:
-Based on the findings from NYC Citi Bike data from August 2019, the majority of the rides are in Manhattan during the peak hours of 7-9am and 4-7pm. The majority of riders are male. 
+Based on the findings from NYC Citi Bike data from August 2019, the majority of the rides are in Manhattan during the peak hours of 7-9am and 4-7pm. The duration of the rides are under 1 hour. The majority of riders are male subscribers who ride during peak rush hours. The unknown riders are mostly unsubscribed customers who ride on the weekends.
 
 ### Further Investigation: 
 1. Look into data from other months. We need to be sure that this business is sustainable for the majority of the year. 
-2. Look into data from Des Moines. Where are the majority of the businesses? Where do potential customers live? How far are the customers willing to bike? 
+2. Look into data from Des Moines, Iowa. Where are the majority of the businesses? Where do potential customers live? How far are the customers willing to bike? 
